@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:wght@200;300;400;500;600;700;800&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:wght@200;300;400;500;600;700;800&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Raleway';
+}
+
+body {
+    font-family: 'Roboto' ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212121;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    font-size: 14px;
+    color: #212121;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #212121;
+    transition: 0.3s;
+
+}
+
+.nav a:hover {
+    color: #2196F3;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #757575;
+    transition: 0.3s;
+}
+
+.contacts a:hover {
+    color: #2196F3;
+}
+
+main {
+    background-color: #2F303A;
+}
+
+main h1 {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+main button {
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.zaglav {
+    font-size: 14px;
+    color: #212121;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+    color: #757575;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #212121;
+}
+
+.threeimg img {
+    width: 370px;
+}
+
+.herotwo h2 {
+    font-size: 36px;
+    color: #212121;
+}
+
+.topfooterdivan {
+    background-color: #F5F4FA;
+}
+
+.topfooterdivan img {
+    width: 270px;
+}
+
+.topfooterzaglav {
+    font-size: 16px;
+}
+
+.topfootertext {
+    font-size: 16px;
+    color: #757575;
+}
+
+footer {
+    font-size: 26px;
+    background-color: #2F303A;
+}
+
+address {
+    color: #fff;
+}
+
+footer ul {
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    filter: opacity(60%);
+}
+
+footer address {
+    font-style: normal;
+}
+/* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO *//* PORTFOLIO */
+
+
+
+header {
+    font-size: 26px;
+}
+
+header ul {
+    font-size: 14px;
+}
+
+.buttonlist button{
+    color: #212121;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #F5F4FA;
+    transition: 0.3s;
+}
+
+.buttonlist button:hover {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.one{
+    background-color: #fff;
+}
+
+.portzaglav {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.porttext {
+    font-size: 16px;
+}
