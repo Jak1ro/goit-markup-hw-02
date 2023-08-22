@@ -7,86 +7,73 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="#" class="logo"><span>Web</span>Studio</a>
-        <ul class="nav">
-            <li>
-                <nav><a href="index.html">Студия</a></nav>
-            </li>
-            <li>
-                <nav><a href="portfolio.html">Портфолио</a></nav>
-            </li>
-            <li>
-                <nav> <a href="">Контакты</a></nav>
-            </li>
+    <header class="wrapper navmenu">
+        <a href="#" class="logo">Web<span>Studio</span></a>
+        <nav class="nav">
+            <a class="navitem" href="index.html">Студия</a>
+            <a class="navitem" href="#"><span>Портфолио</span></a>
+            <a class="navitem" href="#">Контакты</a>
+    </nav>
+    <ul class="contacts">
+        <li><a href="#">info@devstudio.com</a></li>
+        <li><a href="#">+38 096 111 11 11</a></li>
+    </ul>
+</header>
+    <div class="wrapper">
+        <ul class="buttonlist">
+            <li><button type="button">Все</button></li>
+            <li><button type="button">Веб-сайты</button></li>
+            <li><button type="button">Приложения</button></li>
+            <li><button type="button">Дизайн</button></li>
+            <li><button type="button">Маркетинг</button></li>
         </ul>
-        <ul class="contacts">
-            <li><a href="#">info@devstudio.com</a></li>
-            <li><a href="#">+38 096 111 11 11</a></li>
-        </ul>
-    </header>
-    <main class="one">
-        <div class="portpage">
-            <ul class="buttonlist">
-                <li><button type="button">Все</button></li>
-                <li><button type="button">Веб-сайты</button></li>
-                <li><button type="button">Приложения</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
-            </ul>
+    </div>
+    <main class="wrapper one">
             <ul class="imglist">
-                <li><img src="./images/img1.jpg" alt="notebook">
-                <p class="portzaglav">Технокряк</p>
-                <p class="porttext">Веб-сайт</p>
+                <li><img class="imgitem" src="./images/img1.jpg" alt="notebook">
+                <p class="portzaglav">Технокряк <br><span>Веб-сайт</span></p>
                 </li>
-                <li><img src="images/img2.jpg" alt="basketball">
-                <p class="portzaglav">Постер New Orlean vs Golden Star</p>
-                <p class="porttext">Дизайн</p>
+                <li><img class="imgitem" src="images/img2.jpg" alt="basketball">
+                <p class="portzaglav">Постер New Orlean vs Golden Star <br><span>Дизайн</span></p>
                 </li>
-                <li><img src="./images/img3.jpg" alt="fish">
-                <p class="portzaglav">Ресторан Seafood</p>
-                <p class="porttext">Приложение</p>
+                <li><img class="imgitem" src="./images/img3.jpg" alt="fish">
+                <p class="portzaglav">Ресторан Seafood <br><span>Приложение</span></p>
                 </li>
-                <li><img src="./images/img4.jpg" alt="pods">
-                <p class="portzaglav">Проект Prime</p>
-                <p class="porttext">Маркетинг</p>
+                <li><img class="imgitem" src="./images/img4.jpg" alt="pods">
+                <p class="portzaglav">Проект Prime <br><span>Маркетинг</span></p>
                 </li>
-                <li><img src="./images/img5.jpg" alt="kirpichi">
-                <p class="portzaglav">Проект Boxes</p>
-                <p class="porttext">Приложение</p>
+                <li><img class="imgitem" src="./images/img5.jpg" alt="kirpichi">
+                <p class="portzaglav">Проект Boxes <br><span>Приложение</span></p>
                 </li>
-                <li><img src="./images/img6.jpg" alt="ekran">
-                <p class="portzaglav">Inspiration has no Borders</p>
-                <p class="porttext">Веб-сайт</p>
+                <li><img class="imgitem" src="./images/img6.jpg" alt="ekran">
+                <p class="portzaglav">Inspiration has no Borders <br><span>Веб-сайт</span></p>
                 </li>
-                <li><img src="./images/img7.jpg" alt="book">
-                <p class="portzaglav">Издание Limited Edition</p>
-                <p class="porttext">Дизайн</p>
+                <li><img class="imgitem" src="./images/img7.jpg" alt="book">
+                <p class="portzaglav">Издание Limited Edition <br><span>Дизайн</span></p>
                 </li>
-                <li><img src="./images/img8.jpg" alt="bymajka">
-                <p class="portzaglav">Проект LAB</p>
-                <p class="porttext">Маркетинг</p>
+                <li><img class="imgitem" src="./images/img8.jpg" alt="bymajka">
+                <p class="portzaglav">Проект LAB <br><span>Маркетинг</span></p>
                 </li>
-                <li><img src="./images/img9.jpg" alt="writeonnotebook">
-                <p class="portzaglav">Growing Business</p>
-                <p class="porttext">Приложение</p>
+                <li><img class="imgitem" src="./images/img9.jpg" alt="writeonnotebook">
+                <p class="portzaglav">Growing Business <br><span>Приложение</span></p>
                 </li>
             </ul>
-        </div>
-        <footer>
-            <a href="#" class="flogo"><span>Web</span>Studio</a>
-            <ul>
-                <li>
-                    <address>г. Киев, пр-т Леси Украинки, 26</address>
-                </li>
-                <li>
-                    <a href="#" class="fcont">info@example.com</a>
-                </li>
-                <li>
-                    <a href="#" class="fcont">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </footer>
     </main>
+        <footer>
+            <div class="wrapper ftcont">
+                <a href="#" class="flogo">Web<span>Studio</span></a>
+                <ul class="flist">
+                    <li>
+                        <address>г. Киев, пр-т Леси Украинки, 26</address>
+                    </li>
+                    <li>
+                        <a href="#" class="fcont">info@example.com</a>
+                    </li>
+                    <li>
+                        <a href="#" class="fcont">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 </body>
 </html>
